@@ -12,6 +12,10 @@
     overflow: hidden;
 }
 
+/* -- ==================================================== 
+-- Header 
+-- ====================================================  */
+
 #menu li>a {
     font-size: 18px;
     font-weight: bold;
@@ -22,4 +26,12 @@
     font-size: 18px;
     font-weight: bold;
 
+}
+/* -- ==================================================== 
+-- imagenes de Carrousel 
+-- ====================================================  */
+
+/* no esta tomando el max */
+.carousel-inner{
+    max-height: 39rem;
 }
