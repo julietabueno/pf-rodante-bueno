@@ -9,7 +9,7 @@
 
 :root {
     font-family: 'Nunito Sans', sans-serif;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* -- ==================================================== 
@@ -27,12 +27,13 @@
     font-weight: bold;
 
 }
+
 /* -- ==================================================== 
 -- imagenes de Carrousel 
 -- ====================================================  */
 
 /* no esta tomando el max */
-.carousel-inner{
+.carousel-inner {
     max-height: 39rem !important;
 }
 
@@ -59,12 +60,24 @@
 -- MEDIA QUERIES - TABLET 
 -- ====================================================  */
 
-@media (max-with:768px){
-    #intro{
+@media screen and (max-width:768px) {
+    #intro {
         width: 90% !important;
+    }
+
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+        justify-content: center;
     }
 }
 
 /* -- ==================================================== 
 -- MEDIA QUERIES - MOBILE 
 -- ====================================================  */
+
+@media screen and (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+    }
+}
