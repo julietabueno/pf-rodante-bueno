@@ -1,3 +1,4 @@
+@import "/scss/custom.scss";
 /* Fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap');
@@ -28,9 +29,21 @@
 }
 
 .contHeader {
-    background-color: #670e96;
+    background-color: #0b3497;
 }
 
+.nav-link:hover{
+    background-color: #6bf5ad;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.logo{
+    margin-left: 10%;
+    animation: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 
 
 /* -- ==================================================== 
@@ -108,7 +121,7 @@
 }
 
 .btn-submit{
-    background-color: #670e96;
+    background-color: #0b3497;
     color: #fbfafa;
 }
 
@@ -134,20 +147,20 @@
 
 
 footer {
-    background: #fc9c2d;
+    background: #0b3497;
     min-height: 100px;
     ;
 }
 
 footer p {
-    color: #3f3f3f;
+    color: #fbfafa;
     text-align: center;
 }
 
 #iconos i {
     font-size: 26px;
     padding: 0 8px;
-    color: #3f3f3f;
+    color: #fbfafa;
 }
 
 
