@@ -31,7 +31,7 @@
     </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 id=menu">
         <div class="container-fluid">
-            <a class="navbar-brand logo" href="#">
+            <a class="navbar-brand logo" href="/index.html">
                 <img src="/logos/logo sin fondo corto peque.png" alt="logo" height="65">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -73,61 +73,60 @@
     <!--========================================================== -->
     <!-- CONTENEDOR DEL FORMULARIO -->
     <!--========================================================== -->
-    <main>
-        <section class="mainContacto">
+    <main >
+    <section class="mainContacto bg-light">
 
-            <div class="container-fluid p-3 " style="max-width: 1000px" id="contenedor-formulario-contacto">
-                <div class="text-center mb-4" id="titulo-formulario">
-                    <div><img src="../img/support.png" alt="" class="img-fluid ps-5"></div>
-                    <h2 class="text-danger animation">Contactanos</h2>
+        <div class="container-fluid p-3 " style="max-width: 1000px" id="contenedor-formulario-contacto">
+            <div class="text-center mb-4" id="titulo-formulario">
+                <div><img src="../img/support.png" alt="" class="img-fluid ps-5"></div>
+                <h2 class="text-danger animation">Contactanos</h2>
+            </div>
+
+            <form  method="POST" data-netlify="true" action="#">
+
+                <div class="mb-3">
+                    <label for="inputNombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputNombre">
+                </div>
+                <div class="mb-3">
+                    <label for="inputApellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="inputApellido">
                 </div>
 
-                <form class="border border-light rounded-end " method="POST" data-netlify="true" action="#">
+                <div class="mb-3">
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+                </div>
 
-                    <div class="mb-3">
-                        <label for="inputNombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="inputNombre">
-                    </div>
-                    <div class="mb-3">
-                        <label for="inputApellido" class="form-label">Apellido</label>
-                        <input type="text" class="form-control" id="inputApellido">
-                    </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+                </div>
 
-                    <div class="mb-3">
-                        <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
-                    </div>
+                <div class="md-3">
+                    <label for="inputModo" class="form-label">Modo de Contacto</label>
+                    <select id="inputModo" class="form-select">
+                        <option selected>Whatsapp</option>
+                        <option>Llamado telefónico</option>
+                        <option>E-mail</option>
+                    </select>
+                </div>
 
-                    <div class="mb-3">
-                        <input type="email" class="form-control" id="email" name="email"
-                            placeholder="nombre@ejemplo.com">
-                    </div>
+                <div class="mb-3">
+                    <label for="inputMensaje" class="form-label">Dejanos tu Mensaje</label>
+                    <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+                </div>
 
-                    <div class="md-3">
-                        <label for="inputModo" class="form-label">Modo de Contacto</label>
-                        <select id="inputModo" class="form-select">
-                            <option selected>Whatsapp</option>
-                            <option>Llamado telefónico</option>
-                            <option>E-mail</option>
-                        </select>
-                    </div>
+                <div class=" d-flex justify-content-evenly align-items-center flex-wrap mb-5">
+                    <button type="submit" class="btn text-light bg-danger w-20 fs-5">Enviar</button>
+                    <button type="reset" class="btn text-light bg-dark w-20 fs-5">Limpiar</button>
 
-                    <div class="mb-3">
-                        <label for="inputMensaje" class="form-label">Dejanos tu Mensaje</label>
-                        <textarea class="form-control" name="message" id="message" rows="4"></textarea>
-                    </div>
+                </div>
+            </form>
 
-                    <div class=" d-flex justify-content-evenly align-items-center flex-wrap mb-5">
-                        <button type="submit" class="btn text-light bg-danger w-20 fs-5">Enviar</button>
-                        <button type="reset" class="btn text-light bg-dark w-20 fs-5">Limpiar</button>
-
-                    </div>
-                </form>
-
-        </section>
+    </section>
 
 
 
-    </main>
+</main>
 
 
 
