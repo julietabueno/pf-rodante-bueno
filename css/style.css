@@ -109,16 +109,15 @@
 /* -- ==================================================== 
 -- Formulario de contacto
 -- ====================================================  */
-.mainContacto{
+.mainContacto {
     background-image: url(../img/dibus/finger.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 20%;
-  
+
 }
 
-animation: bounce; /* referring directly to the animation's @keyframe declaration */
-animation-duration: 2s; 
+
 .contenedor-formulario {
     /* cuando le pongo este position desaparace, pero con las otras opciones lo deja en cualquier lado */
     position: absolute;
