@@ -25,8 +25,13 @@
 #menu form>button {
     font-size: 18px;
     font-weight: bold;
-
 }
+
+.contHeader {
+    background-color: #670e96;
+}
+
+
 
 /* -- ==================================================== 
 -- imagenes de Carrousel 
@@ -91,7 +96,7 @@
 -- Formulario de contacto
 -- ====================================================  */
 
-.contenedor-formulario{
+.contenedor-formulario {
     /* cuando le pongo este position desaparace, pero con las otras opciones lo deja en cualquier lado */
     position: absolute;
     top: 30%;
@@ -102,6 +107,10 @@
     max-width: 500px;
 }
 
+.btn-submit{
+    background-color: #670e96;
+    color: #fbfafa;
+}
 
 /* ===================================================== */
 /* animaciones */
@@ -125,17 +134,20 @@
 
 
 footer {
-    background: #1b2a4e;
-    min-height: 100px;;
+    background: #fc9c2d;
+    min-height: 100px;
+    ;
 }
-footer p{
-    color:#f3f3f3;
-    text-align:center;
+
+footer p {
+    color: #3f3f3f;
+    text-align: center;
 }
-#iconos  i {
+
+#iconos i {
     font-size: 26px;
     padding: 0 8px;
-    color:#f3f3f3;
+    color: #3f3f3f;
 }
 
 
