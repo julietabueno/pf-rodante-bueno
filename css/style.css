@@ -75,7 +75,7 @@
     background: #f3f3f3;
     padding-bottom: 300px;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
 }
 
 .wrapper {
@@ -109,7 +109,16 @@
 /* -- ==================================================== 
 -- Formulario de contacto
 -- ====================================================  */
+.mainContacto{
+    background-image: url(../img/dibus/finger.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20%;
+  
+}
 
+animation: bounce; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 2s; 
 .contenedor-formulario {
     /* cuando le pongo este position desaparace, pero con las otras opciones lo deja en cualquier lado */
     position: absolute;
@@ -124,6 +133,13 @@
 .btn-submit {
     background-color: #0b3497;
     color: #fbfafa;
+}
+
+
+/* ajustes para hmtl de contacto */
+
+.contenedor-formulario-contacto {
+    background-image: url(../img/dibus/finger.png);
 }
 
 /* ===================================================== */

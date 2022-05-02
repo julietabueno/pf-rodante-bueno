@@ -32,7 +32,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 id=menu">
         <div class="container-fluid">
             <a class="navbar-brand logo" href="#">
-                <img src="/logos/logo sin fondo corto peque.png" alt="logo"  height="65">
+                <img src="/logos/logo sin fondo corto peque.png" alt="logo" height="65">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -41,61 +41,113 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active rounded-circle bg-primary text-light" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link rounded-circle bg-success text-light"
-                                href="grupos.html">Grupos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link rounded-circle bg-danger text-light"
-                                href="staff.html">Quienes Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link rounded-circle bg-secondary text-light"
-                                href="propuestas.html">Propuestas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link rounded-circle bg-warning text-light"
-                                href="experiencias.html">Experiencias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link rounded-circle bg-info text-light"
-                                href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active rounded-circle bg-primary text-light" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-circle bg-success text-light" href="grupos.html">Grupos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-circle bg-danger text-light" href="staff.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-circle bg-secondary text-light" href="propuestas.html">Propuestas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-circle bg-warning text-light"
+                            href="experiencias.html">Experiencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-circle bg-info text-light" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
+    <!--========================================================== -->
+    <!-- SECCION CONTACTOS-->
+    <!--========================================================== -->
 
+    <!--========================================================== -->
+    <!-- CONTENEDOR DEL FORMULARIO -->
+    <!--========================================================== -->
+    <section class="mainContacto">
 
-
-
-
-
-
-    
-        <!--========================================================== -->
-        <!------------------------FOOTER---------------------->
-        <!--========================================================== -->
-
-
-        <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
-            <p class="fs-5 px-3 pt-3">Arstimarfla - Creando infancias felices</p>
-            <div id="iconos">
-                <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
-                <a href="https://web.whatsapp.com/"><i class="bi bi-whatsapp"></i>
-                    <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+        <div class="container-fluid p-3 " style="max-width: 1000px" id="contenedor-formulario-contacto">
+            <div class="text-center mb-4" id="titulo-formulario">
+                <div><img src="../img/support.png" alt="" class="img-fluid ps-5"></div>
+                <h2 class="text-danger animation">Contactanos</h2>
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#347855" fill-opacity="1"
-                    d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-                </path>
-            </svg>
-        </footer>
+
+            <form class="border border-light rounded-end " method="POST" data-netlify="true" action="#">
+
+                <div class="mb-3">
+                    <label for="inputNombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputNombre">
+                </div>
+                <div class="mb-3">
+                    <label for="inputApellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="inputApellido">
+                </div>
+
+                <div class="mb-3">
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+                </div>
+
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+                </div>
+
+                <div class="md-3">
+                    <label for="inputModo" class="form-label">Modo de Contacto</label>
+                    <select id="inputModo" class="form-select">
+                        <option selected>Whatsapp</option>
+                        <option>Llamado telefónico</option>
+                        <option>E-mail</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="inputMensaje" class="form-label">Dejanos tu Mensaje</label>
+                    <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+                </div>
+
+                <div class=" d-flex justify-content-evenly align-items-center flex-wrap mb-5">
+                    <button type="submit" class="btn text-light bg-danger w-20 fs-5">Enviar</button>
+                    <button type="reset" class="btn text-light bg-dark w-20 fs-5">Limpiar</button>
+
+                </div>
+            </form>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!--========================================================== -->
+    <!------------------------FOOTER---------------------->
+    <!--========================================================== -->
+
+
+    <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3">Arstimarfla - Creando infancias felices</p>
+        <div id="iconos">
+            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="bi bi-whatsapp"></i>
+                <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#347855" fill-opacity="1"
+                d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+            </path>
+        </svg>
+    </footer>
 
 
 
