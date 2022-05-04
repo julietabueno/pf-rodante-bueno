@@ -1,8 +1,4 @@
 @import "/scss/custom.scss";
-/* Fuentes */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap');
-
 
 /*ExtraBold 800: font-family: 'Nunito Sans', sans-serif; */
 /* Light 200: font-family: 'Nunito Sans', sans-serif; */
@@ -27,15 +23,16 @@
     font-size: 18px;
     font-weight: bold;
 }
-
+/* 
 .contHeader {
     background-color: #0b3497;
-}
+} */
 
 .nav-link:hover {
-    background-color: #6bf5ad;
+    /* background-color: #6bf5ad; */
     cursor: pointer;
     text-decoration: underline;
+    color: $violeta;
 }
 
 .logo {

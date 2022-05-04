@@ -1,0 +1,12 @@
+
+@import "./variables/variables";
+
+header{
+    background-color: $violeta;
+}
+
+.nav-link:hover {
+    background-color: #6bf5ad;
+    cursor: pointer;
+    text-decoration: underline;
+}
