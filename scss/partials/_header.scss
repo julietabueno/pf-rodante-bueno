@@ -1,23 +1,26 @@
 @import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
 /* -- ==================================================== 
--- Header 
+-- ----------------------Header -------------------------
 -- ====================================================  */
 .contHeader {
     background-color: $azul;
 }
 
-#menu li>a {
-    font-size: 18px;
-    font-weight: bold;
-    color: #3f3f3f;
+#menu {
+    li>a {
+        font-size: 18px;
+        font-weight: bold;
+        color: #3f3f3f;
+    }
+    form>button {
+        font-size: 18px;
+        font-weight: bold;
+    }
 }
-
-#menu form>button {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-
 
 .nav-link:hover {
     background-color: #6bf5ad;
@@ -27,7 +30,5 @@
 
 .logo {
     margin-left: 10%;
-    animation: bounce;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    @include ani-bounce;
 }
