@@ -52,21 +52,3 @@
 
 
 
-
-/* -- ==================================================== 
--- MEDIA QUERIES - DESKTOP 
--- ====================================================  */
-@media screen and (max-width: 1200px) {
-    #local {
-        flex-wrap: wrap;
-        padding-top: 30px;
-    }
-
-    .wrapper {
-        width: 90%;
-        margin: auto;
-        padding-top: 50px;
-    }
-}
-
-
