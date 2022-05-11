@@ -7,27 +7,33 @@
 -- ----------------------Header -------------------------
 -- ====================================================  */
 .contHeader {
+    @include flex-centrar;
     background-color: $azul;
 }
 
-#menu {
-    li>a {
-        font-size: 18px;
-        font-weight: bold;
-        color: $gris;
-    }
+form>button {
+    font-size: $font-size-header;
+    font-weight: bold;
+}
 
-    form>button {
-        font-size: 18px;
-        font-weight: bold;
+nav {
+    background-color: white
+}
+
+.navbarNav {
+    @include flex-centrar;
+}
+
+.nav-link {
+    @include fuentes;
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
     }
 }
 
-.nav-link:hover {
-    // background-color: #6bf5ad;
-    cursor: pointer;
-    text-decoration: underline;
-}
+
 
 .logo {
     margin-left: 10%;

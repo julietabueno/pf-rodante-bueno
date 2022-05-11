@@ -2,7 +2,17 @@
 
 @mixin ani-bounce {
     animation: bounce;
- animation-duration: 2s;
- animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
- 
+
+@mixin flex-centrar {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin fuentes {
+    font-family: $tipo-de-letra;
+    font-style:normal;
+    font-weight:bolder;
+}
