@@ -1,0 +1,37 @@
+@import "../variables/variables";
+
+
+/* -- ==================================================== 
+-- MEDIA QUERIES - TABLET 
+-- ====================================================  */
+
+@media screen and (max-width:768px) {
+    #intro #equipo {
+        width: 90% !important;
+    }
+
+    #equipo p {
+        display: none;
+    }
+
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+        /* justify-content: center; */
+    }
+}
+
+/* -- ==================================================== 
+-- MEDIA QUERIES - MOBILE 
+-- ====================================================  */
+
+@media (max-width: 576px) {
+    #intro {
+        width: 90% !important;
+    }
+
+    /* .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    } */
+}

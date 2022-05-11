@@ -1,6 +1,6 @@
-@import "../variables/variables";
-@import "../sass2/extend";
-@import "../sass2/mixins";
+@import "./variables/variables";
+@import "./sass2/extend";
+@import "./sass2/mixins";
 
 
 /* -- ==================================================== 
@@ -14,8 +14,9 @@
     li>a {
         font-size: 18px;
         font-weight: bold;
-        color: #3f3f3f;
+        color: $gris;
     }
+
     form>button {
         font-size: 18px;
         font-weight: bold;
@@ -23,7 +24,7 @@
 }
 
 .nav-link:hover {
-    background-color: #6bf5ad;
+    // background-color: #6bf5ad;
     cursor: pointer;
     text-decoration: underline;
 }

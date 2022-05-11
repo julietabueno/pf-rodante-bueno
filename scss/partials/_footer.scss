@@ -1,0 +1,23 @@
+@import "../variables/variables";
+
+
+/* -- ==================================================== 
+-- Footer 
+-- ====================================================  */
+
+
+footer {
+    background: #0b3497;
+    min-height: 100px;
+    p{
+        color: #fbfafa;
+        text-align: center;
+    }
+}
+
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #fbfafa;
+}

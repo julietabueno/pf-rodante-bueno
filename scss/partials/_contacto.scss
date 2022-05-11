@@ -1,0 +1,38 @@
+@import "../variables/variables";
+
+
+
+/* -- ==================================================== 
+-- Formulario de contacto
+-- ====================================================  */
+.mainContacto {
+    background-image: url(../img/dibus/finger.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20%;
+
+}
+
+
+.contenedor-formulario {
+    /* cuando le pongo este position desaparace, pero con las otras opciones lo deja en cualquier lado */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+.btn-submit {
+    background-color: #0b3497;
+    color: #fbfafa;
+}
+
+
+/* ajustes para hmtl de contacto */
+
+.contenedor-formulario-contacto {
+    background-image: url(../img/dibus/finger.png);
+}
