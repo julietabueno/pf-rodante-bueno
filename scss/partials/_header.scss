@@ -2,10 +2,6 @@
 @import "./sass2/extend";
 @import "./sass2/mixins";
 
-
-/* -- ==================================================== 
--- ----------------------Header -------------------------
--- ====================================================  */
 header {
     @include flex-centrar;
     flex-direction: row;
@@ -13,16 +9,14 @@ header {
     background-color: $azul;
     color: white;
     padding-top: 1%;
-    p{
+
+    p {
         margin-left: 3px;
         margin-right: 3px;
     }
 }
 
-form>button {
-    font-size: $font-size-header;
-    font-weight: bold;
-}
+
 
 nav {
     background-color: white
@@ -33,7 +27,7 @@ nav {
 }
 
 .nav-link {
-    @include fuentes;
+    @extend .fuentes;
 
     &:hover {
         cursor: pointer;

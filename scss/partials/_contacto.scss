@@ -1,5 +1,6 @@
 @import "../variables/variables";
-
+@import "../sass2/extend";
+@import "../sass2/mixins";
 
 
 /* -- ==================================================== 
@@ -10,12 +11,10 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: 20%;
-
 }
 
 
 .contenedor-formulario {
-    /* cuando le pongo este position desaparace, pero con las otras opciones lo deja en cualquier lado */
     position: absolute;
     top: 30%;
     left: 50%;

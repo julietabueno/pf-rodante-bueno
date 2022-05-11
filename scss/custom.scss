@@ -12,6 +12,10 @@
 @import "sass2/mixins";
 
 
+.classh1 {
+    @extend .fuentesh1;
+    @include ani-bounce;
+}
 
 
 
@@ -26,9 +30,3 @@
     animation-duration: 2s;
     /* don't forget to set a duration! */
 }
-
-
-
-
-
-

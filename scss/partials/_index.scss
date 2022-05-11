@@ -1,4 +1,8 @@
 @import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
 /* -- ==================================================== 
 -- imagenes de Carrousel 
 -- ====================================================  */
@@ -6,4 +10,11 @@
 /* no esta tomando el max */
 .carousel-inner {
     max-height: 39rem !important;
+}
+
+h1{
+    span{
+        @extend .fuentesh1;
+        @include ani-bounce;
+    }
 }

@@ -1,2 +1,15 @@
 @import "../variables/variables";
+@import "./scss/sass2/mixins";
 
+
+
+.fuentes {
+    font-family: $tipo-de-letra;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.fuentesh1 {
+    color: $rosa;
+    @include ani-bounce;
+}

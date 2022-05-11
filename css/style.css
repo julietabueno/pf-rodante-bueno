@@ -4,33 +4,63 @@
 /* Fuentes */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+/* Fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+/* Fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+.fuentes, .nav-link {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: bolder; }
+
+.fuentesh1, h1 span, .classh1 {
+  color: #d4696c;
+  animation: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+/* Fuentes */
 /* -- ==================================================== 
 -- Formulario de contacto
 -- ====================================================  */
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
 .mainContacto {
   background-image: url(../img/dibus/finger.png);
   background-repeat: no-repeat;
@@ -38,7 +68,6 @@
   background-size: 20%; }
 
 .contenedor-formulario {
-  /* cuando le pongo este position desaparace, pero con las otras opciones lo deja en cualquier lado */
   position: absolute;
   top: 30%;
   left: 50%;
@@ -76,9 +105,18 @@ footer {
 /* Fuentes */
 /* Fuentes */
 /* Fuentes */
-/* -- ==================================================== 
--- ----------------------Header -------------------------
--- ====================================================  */
+.fuentes, .nav-link {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: bolder; }
+
+.fuentesh1, h1 span, .classh1 {
+  color: #d4696c;
+  animation: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+/* Fuentes */
 header {
   display: flex;
   justify-content: center;
@@ -94,10 +132,6 @@ header {
     margin-left: 3px;
     margin-right: 3px; }
 
-form > button {
-  font-size: 10px;
-  font-weight: bold; }
-
 nav {
   background-color: white; }
 
@@ -108,13 +142,9 @@ nav {
   align-items: center;
   flex-wrap: wrap; }
 
-.nav-link {
-  font-family: "Nunito Sans", sans-serif;
-  font-style: normal;
-  font-weight: bolder; }
-  .nav-link:hover {
-    cursor: pointer;
-    text-decoration: underline; }
+.nav-link:hover {
+  cursor: pointer;
+  text-decoration: underline; }
 
 .logo {
   margin-left: 10%;
@@ -161,6 +191,20 @@ nav {
   margin: 0; }
 
 /* Fuentes */
+/* Fuentes */
+/* Fuentes */
+.fuentes, .nav-link {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: bolder; }
+
+.fuentesh1, h1 span, .classh1 {
+  color: #d4696c;
+  animation: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+/* Fuentes */
 /* -- ==================================================== 
 -- imagenes de Carrousel 
 -- ====================================================  */
@@ -168,9 +212,31 @@ nav {
 .carousel-inner {
   max-height: 39rem !important; }
 
+h1 span {
+  animation: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
 /* Fuentes */
 /* Fuentes */
 /* Fuentes */
+.fuentes, .nav-link {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: bolder; }
+
+.fuentesh1, h1 span, .classh1 {
+  color: #d4696c;
+  animation: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+/* Fuentes */
+.classh1 {
+  animation: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
 /* ===================================================== */
 /* animaciones */
 /* =================================================== */
