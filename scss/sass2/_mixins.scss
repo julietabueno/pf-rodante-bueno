@@ -8,7 +8,10 @@
 
 @mixin flex-centrar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 @mixin fuentes {

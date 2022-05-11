@@ -6,9 +6,17 @@
 /* -- ==================================================== 
 -- ----------------------Header -------------------------
 -- ====================================================  */
-.contHeader {
+header {
     @include flex-centrar;
+    flex-direction: row;
+    font-family: $tipo-de-letra;
     background-color: $azul;
+    color: white;
+    padding-top: 1%;
+    p{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 }
 
 form>button {
@@ -32,8 +40,6 @@ nav {
         text-decoration: underline;
     }
 }
-
-
 
 .logo {
     margin-left: 10%;
