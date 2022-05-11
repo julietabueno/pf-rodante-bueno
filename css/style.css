@@ -58,16 +58,13 @@
   animation-iteration-count: infinite; }
 
 /* Fuentes */
-/* -- ==================================================== 
--- Formulario de contacto
--- ====================================================  */
 .mainContacto {
   background-image: url(../img/dibus/finger.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 20%; }
 
-.contenedor-formulario {
+.contenedor-formulario-contacto {
   position: absolute;
   top: 30%;
   left: 50%;
@@ -77,12 +74,12 @@
   max-width: 500px; }
 
 .btn-submit {
-  background-color: #0b3497;
-  color: #fbfafa; }
+  background-color: #d4696c;
+  color: white; }
 
-/* ajustes para hmtl de contacto */
-.contenedor-formulario-contacto {
-  background-image: url(../img/dibus/finger.png); }
+.btn-reset {
+  background-color: #347855;
+  color: white; }
 
 /* Fuentes */
 /* Fuentes */
