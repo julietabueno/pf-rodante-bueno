@@ -16,27 +16,29 @@
 
 body {
     background-image: url(../img/fotos/fondoestrellas.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: animate__zoomIn;
-    animation-duration: 2s;
-}
+    background-repeat: repeat;
+    background-size: 300%;
+    animation: movimiento 20s linear infinite alternate;
+    }
 
 .classh1 {
     @extend .fuentesh1;
     @include ani-bounce;
 }
 
-
-
-/* ===================================================== */
-/* animaciones */
-/* =================================================== */
 .animation {
     display: inline-block;
     margin: 0 0.5rem;
     animation: bounce;
-    /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s;
-    /* don't forget to set a duration! */
+
+}
+
+
+@keyframes movimiento{
+from{
+background-position: bottom right;
+}to{
+    background-position: top ;
+}
 }

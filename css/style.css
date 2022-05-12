@@ -1,13 +1,9 @@
-/* Fuentes */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-/* Fuentes */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-/* Fuentes */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-/* Fuentes */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
@@ -58,7 +54,6 @@
   animation-duration: 2s;
   animation-iteration-count: infinite; }
 
-/* Fuentes */
 .mainContacto {
   background-image: url(../img/dibus/finger.png);
   background-repeat: no-repeat;
@@ -82,8 +77,6 @@
   background-color: #347855;
   color: white; }
 
-/* Fuentes */
-/* Fuentes */
 /* -- ==================================================== 
 -- Footer 
 -- ====================================================  */
@@ -99,10 +92,6 @@ footer {
   padding: 0 8px;
   color: #fbfafa; }
 
-/* Fuentes */
-/* Fuentes */
-/* Fuentes */
-/* Fuentes */
 .fuentes, .nav-link {
   font-family: "Nunito Sans", sans-serif;
   font-style: normal;
@@ -114,7 +103,6 @@ footer {
   animation-duration: 2s;
   animation-iteration-count: infinite; }
 
-/* Fuentes */
 header {
   display: flex;
   justify-content: center;
@@ -142,13 +130,8 @@ header {
   text-decoration: underline; }
 
 .logo {
-  margin-left: 10%;
-  animation: bounce;
-  animation-duration: 2s;
-  animation-iteration-count: infinite; }
+  margin-left: 10%; }
 
-/* Fuentes */
-/* Fuentes */
 /* -- ==================================================== 
 --  Sobre nosotras mapa
 -- ====================================================  */
@@ -185,9 +168,6 @@ header {
 #zonas-local p {
   margin: 0; }
 
-/* Fuentes */
-/* Fuentes */
-/* Fuentes */
 .fuentes, .nav-link {
   font-family: "Nunito Sans", sans-serif;
   font-style: normal;
@@ -199,7 +179,6 @@ header {
   animation-duration: 2s;
   animation-iteration-count: infinite; }
 
-/* Fuentes */
 /* -- ==================================================== 
 -- imagenes de Carrousel 
 -- ====================================================  */
@@ -212,9 +191,6 @@ h1 span {
   animation-duration: 2s;
   animation-iteration-count: infinite; }
 
-/* Fuentes */
-/* Fuentes */
-/* Fuentes */
 .fuentes, .nav-link {
   font-family: "Nunito Sans", sans-serif;
   font-style: normal;
@@ -226,26 +202,25 @@ h1 span {
   animation-duration: 2s;
   animation-iteration-count: infinite; }
 
-/* Fuentes */
 body {
   background-image: url(../img/fotos/fondoestrellas.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  animation: animate__zoomIn;
-  animation-duration: 2s; }
+  background-repeat: repeat;
+  background-size: 300%;
+  animation: movimiento 20s linear infinite alternate; }
 
 .classh1 {
   animation: bounce;
   animation-duration: 2s;
   animation-iteration-count: infinite; }
 
-/* ===================================================== */
-/* animaciones */
-/* =================================================== */
 .animation {
   display: inline-block;
   margin: 0 0.5rem;
   animation: bounce;
-  /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s;
-  /* don't forget to set a duration! */ }
+  animation-duration: 2s; }
+
+@keyframes movimiento {
+  from {
+    background-position: bottom right; }
+  to {
+    background-position: top; } }
