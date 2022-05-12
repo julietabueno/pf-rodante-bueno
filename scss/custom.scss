@@ -12,6 +12,13 @@
 @import "sass2/mixins";
 
 
+
+body {
+    background-image: url(../img/fotos/fondoestrellas.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .classh1 {
     @extend .fuentesh1;
     @include ani-bounce;

@@ -229,6 +229,11 @@ h1 span {
   animation-iteration-count: infinite; }
 
 /* Fuentes */
+body {
+  background-image: url(../img/fotos/fondoestrellas.svg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .classh1 {
   animation: bounce;
   animation-duration: 2s;
