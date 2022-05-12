@@ -10,6 +10,7 @@
 @import "variables/variables";
 @import "sass2/extend";
 @import "sass2/mixins";
+@import 'animate.css';
 
 
 
@@ -17,6 +18,8 @@ body {
     background-image: url(../img/fotos/fondoestrellas.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    animation: animate__zoomIn;
+    animation-duration: 2s;
 }
 
 .classh1 {

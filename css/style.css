@@ -46,6 +46,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
+@import url(animate.css);
 .fuentes, .nav-link {
   font-family: "Nunito Sans", sans-serif;
   font-style: normal;
@@ -128,9 +129,6 @@ header {
   header p {
     margin-left: 3px;
     margin-right: 3px; }
-
-nav {
-  background-color: white; }
 
 .navbarNav {
   display: flex;
@@ -232,7 +230,9 @@ h1 span {
 body {
   background-image: url(../img/fotos/fondoestrellas.svg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  animation: animate__zoomIn;
+  animation-duration: 2s; }
 
 .classh1 {
   animation: bounce;
