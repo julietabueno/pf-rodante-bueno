@@ -103,7 +103,7 @@ footer {
   animation-duration: 2s;
   animation-iteration-count: infinite; }
 
-header {
+.header {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -114,7 +114,7 @@ header {
   background-color: #0b3497;
   color: white;
   padding-top: 1%; }
-  header p {
+  .header p {
     margin-left: 3px;
     margin-right: 3px; }
 

@@ -19,7 +19,7 @@ body {
     background-repeat: repeat;
     background-size: 300%;
     animation: movimiento 20s linear infinite alternate;
-    }
+}
 
 .classh1 {
     @extend .fuentesh1;
@@ -35,10 +35,12 @@ body {
 }
 
 
-@keyframes movimiento{
-from{
-background-position: bottom right;
-}to{
-    background-position: top ;
-}
+@keyframes movimiento {
+    from {
+        background-position: bottom right;
+    }
+
+    to {
+        background-position: top;
+    }
 }

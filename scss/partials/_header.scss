@@ -2,7 +2,7 @@
 @import "./sass2/extend";
 @import "./sass2/mixins";
 
-header {
+.header {
     @include flex-centrar;
     flex-direction: row;
     font-family: $tipo-de-letra;

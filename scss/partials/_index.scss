@@ -7,13 +7,12 @@
 -- imagenes de Carrousel 
 -- ====================================================  */
 
-/* no esta tomando el max */
 .carousel-inner {
-    max-height: 39rem !important;
+    max-height: 30rem !important;
 }
 
-h1{
-    span{
+h1 {
+    span {
         @extend .fuentesh1;
         @include ani-bounce;
     }
