@@ -38,10 +38,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap");
 @import url(animate.css);
 .fuentes, .nav-link {
   font-family: "Nunito Sans", sans-serif;
@@ -135,15 +131,7 @@ footer {
 /* -- ==================================================== 
 --  Sobre nosotras mapa
 -- ====================================================  */
-.mapa {
-  background: url(../img/mapa.png);
-  background-position: center;
-  width: 100%;
-  height: 500px;
-  background-repeat: no-repeat; }
-
 #local {
-  background: #f3f3f3;
   padding-bottom: 300px;
   display: flex;
   justify-content: flex-start; }
@@ -182,9 +170,8 @@ footer {
 /* -- ==================================================== 
 -- imagenes de Carrousel 
 -- ====================================================  */
-/* no esta tomando el max */
 .carousel-inner {
-  max-height: 39rem !important; }
+  max-height: 30rem !important; }
 
 h1 span {
   animation: bounce;
