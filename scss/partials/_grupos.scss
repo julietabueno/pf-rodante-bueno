@@ -1,1 +1,5 @@
 @import "../variables/variables";
+
+.card-grupos{
+    @extend .card-body;
+    }

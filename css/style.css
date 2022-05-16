@@ -50,6 +50,12 @@
   animation-duration: 2s;
   animation-iteration-count: infinite; }
 
+.card-body, .card-grupos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap; }
+
 .mainContacto {
   background-image: url(../img/dibus/finger.png);
   background-repeat: no-repeat;
@@ -99,6 +105,12 @@ footer {
   animation-duration: 2s;
   animation-iteration-count: infinite; }
 
+.card-body, .card-grupos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap; }
+
 .header {
   display: flex;
   justify-content: center;
@@ -140,22 +152,6 @@ footer {
   width: 100%;
   padding-top: 150px; }
 
-/* -- ==================================================== 
--- seccion de zonas  
--- ====================================================  */
-#zonas-local div {
-  padding: 0 10 0 0;
-  height: 48px; }
-
-#zonas-local div:not(:last-child) {
-  border-right: 2px solid #3f3f3f; }
-
-#zonas-local div:not(:first-child) {
-  padding-left: 20px; }
-
-#zonas-local p {
-  margin: 0; }
-
 .fuentes, .nav-link {
   font-family: "Nunito Sans", sans-serif;
   font-style: normal;
@@ -166,6 +162,12 @@ footer {
   animation: bounce;
   animation-duration: 2s;
   animation-iteration-count: infinite; }
+
+.card-body, .card-grupos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap; }
 
 /* -- ==================================================== 
 -- imagenes de Carrousel 
@@ -188,6 +190,12 @@ h1 span {
   animation: bounce;
   animation-duration: 2s;
   animation-iteration-count: infinite; }
+
+.card-body, .card-grupos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap; }
 
 body {
   background-image: url(../img/fotos/fondoestrellas.svg);

@@ -16,24 +16,3 @@
     padding-top: 150px;
 }
 
-
-/* -- ==================================================== 
--- seccion de zonas  
--- ====================================================  */
-
-#zonas-local div {
-    padding: 0 10 0 0;
-    height: 48px;
-}
-
-#zonas-local div:not(:last-child) {
-    border-right: 2px solid #3f3f3f;
-}
-
-#zonas-local div:not(:first-child) {
-    padding-left: 20px;
-}
-
-#zonas-local p {
-    margin: 0;
-}
