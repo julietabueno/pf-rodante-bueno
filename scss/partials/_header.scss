@@ -3,12 +3,7 @@
 @import "./sass2/mixins";
 
 .header {
-    @include flex-centrar;
-    flex-direction: row;
-    font-family: $tipo-de-letra;
-    background-color: $azul;
-    color: white;
-    padding-top: 1%;
+    @extend .header;
     p {
         margin-left: 3px;
         margin-right: 3px;

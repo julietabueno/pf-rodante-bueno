@@ -7,12 +7,7 @@
 
 
 footer {
-    background: #0b3497;
-    min-height: 100px;
-    p{
-        color: #fbfafa;
-        text-align: center;
-    }
+    @extend .header;
 }
 
 
