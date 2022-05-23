@@ -62,7 +62,7 @@
   align-items: center;
   flex-wrap: wrap; }
 
-footer, .header {
+.header {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -114,7 +114,7 @@ footer, .header {
   align-items: center;
   flex-wrap: wrap; }
 
-footer, .header {
+.header {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -129,11 +129,6 @@ footer, .header {
 /* -- ==================================================== 
 -- Footer 
 -- ====================================================  */
-#iconos i {
-  font-size: 26px;
-  padding: 0 8px;
-  color: #fbfafa; }
-
 body {
   margin-top: 20px; }
 
@@ -317,7 +312,7 @@ body {
   align-items: center;
   flex-wrap: wrap; }
 
-footer, .header {
+.header {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -329,7 +324,7 @@ footer, .header {
   font-weight: bold;
   padding-top: 1%; }
 
-footer p, .header p {
+.header p {
   margin-left: 3px;
   margin-right: 3px; }
 
@@ -376,7 +371,7 @@ footer p, .header p {
   align-items: center;
   flex-wrap: wrap; }
 
-footer, .header {
+.header {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -416,7 +411,7 @@ h1 span {
   align-items: center;
   flex-wrap: wrap; }
 
-footer, .header {
+.header {
   display: flex;
   justify-content: center;
   align-content: center;
